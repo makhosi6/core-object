@@ -11,8 +11,8 @@ console.log(inputData);
         typeof e[i][Symbol.iterator] === "function" ?
           e[i].map((o) => core(text, o)) :
           core(text, e[i]);
-      } else if (`${e[i]}`.toLowerCase().includes(text.toLowerCase())) {
-        console.log(e[i]);
+      } else if (`${e[i]}`.toLowerCase().includes(`${text}`.toLowerCase())) {
+        console.log(e[i], true);
         arr.push(e[i]);
       }
     }
