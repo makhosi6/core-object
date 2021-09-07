@@ -42,11 +42,15 @@ console.log(inputData);
   Object.entries(inputData).map((e) => {
     console.log(e);
     for (let i = 0; i < e.length; i++) {
+      //use lodash to check if an OBject or Array
       if (typeof e[i] === "object") {
+        // recursion inside this block
         typeof e[i][Symbol.iterator] === "function" ?
           e[i].map((o) => core(text, o)) :
           core(text, e[i]);
+          // compare lowercase vs uppecase
       } else if (`${e[i]}`.toLowerCase().includes(`${text}`.toLowerCase())) {
+        
         console.log(e[i], true);
         arr.push(e[i]);
       }
