@@ -1,0 +1,27 @@
+{
+  "name": "core-object",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.js",
+    "test": "./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makhosi6/core-object.git"
+  },
+  "keywords": [
+    "js",
+    "objects"
+  ],
+  "author": "makhosi6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makhosi6/core-object/issues"
+  },
+  "homepage": "https://github.com/makhosi6/core-object#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
