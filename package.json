@@ -16,12 +16,18 @@
     "objects"
   ],
   "author": "makhosi6",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/makhosi6/core-object/issues"
   },
   "homepage": "https://github.com/makhosi6/core-object#readme",
   "devDependencies": {
-    "jest": "^27.3.1"
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
   }
 }
