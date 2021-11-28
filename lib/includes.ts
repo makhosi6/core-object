@@ -5,9 +5,9 @@
  * @returns {Array} 
  * 
  */
- if (Array.prototype._includes == null) Array.prototype._includes = function (searchStr: string, inputData: object) {
+ if (Array.prototype._includes == null) Array.prototype._includes = function (searchStr: string) {
    
 }
- if (Array.prototype._contains == null) Array.prototype._contains = function (searchStr: string, inputData: object) {
+ if (Array.prototype._contains == null) Array.prototype._contains = function (searchStr: string) {
    
 }
