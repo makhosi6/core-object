@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "types":"./types/index.d.ts",
+  "types": "./types/index.d.ts",
   "scripts": {
     "build": "npx tsc index.ts",
     "build:watch": "npx tsc --watch index.ts",
     "build:types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly --outDir types",
-    "test": "./node_modules/.bin/jest"
+    "test": "./node_modules/.bin/jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -29,8 +30,14 @@
     "@babel/preset-env": "^7.16.4",
     "@types/jest": "^27.0.3",
     "babel-jest": "^27.3.1",
+    "husky": "^7.0.4",
     "jest": "^27.3.1",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.0",
     "ts-jest": "^27.0.7",
     "typescript": "^4.5.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,md}": "prettier --write"
   }
 }

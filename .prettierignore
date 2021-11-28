@@ -1,0 +1,2 @@
+# exclude .min.js files
+*.min.js
