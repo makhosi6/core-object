@@ -1,9 +1,9 @@
 {
+  "plugins": ["plugins/markdown"],
   "source": {
-    "include": ["lib", "index.js"],
-    "includePattern": ".js$",
+    "include": ["lib/"],
     "excludePattern": "(node_modules/|docs)"
-},
+  },
 
   "opts": {
     "template": "node_modules/clean-jsdoc-theme",
@@ -13,8 +13,7 @@
       "title": "",
       "favion": "path/to/img",
       "theme": "dark",
-      "menu": [
-        {
+      "menu": [{
           "title": "Website",
           "link": "/docs/clean-jsdoc-theme/dark/",
           "target": "_blank",
