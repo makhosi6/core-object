@@ -1,0 +1,34 @@
+{
+  "source": {
+    "include": ["lib", "index.js"],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules/|docs)"
+},
+
+  "opts": {
+    "template": "node_modules/clean-jsdoc-theme",
+    "destination": "./docs/",
+    "encoding": "utf8",
+    "theme_opts": {
+      "title": "",
+      "favion": "path/to/img",
+      "theme": "dark",
+      "menu": [
+        {
+          "title": "Website",
+          "link": "/docs/clean-jsdoc-theme/dark/",
+          "target": "_blank",
+          "class": "class",
+          "id": "id"
+        },
+        {
+          "title": "Github",
+          "link": "https://github.com/link",
+          "target": "_blank",
+          "class": "class",
+          "id": "id"
+        }
+      ]
+    }
+  }
+}

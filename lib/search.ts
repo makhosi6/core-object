@@ -1,6 +1,9 @@
+/**
+ * @class
+ */
 interface Array<T> {
   /**
-   * @description Determines weather an array contains/includes a given string
+   * @description DDetermines weather an array contains/includes a given string
    * @param {string} searchStr
    * @returns {Boolean}
    *
@@ -9,8 +12,9 @@ interface Array<T> {
 }
 
 if (Array.prototype._search == null)
-  /**
+  /***
    * @description Determines weather an object contains/includes a given string
+   * @method
    * @param {string} searchStr
    * @returns {Boolean}
    *

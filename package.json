@@ -12,6 +12,7 @@
     "build:watch": "npx tsc --watch index.ts",
     "build:types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly --outDir types",
     "test": "./node_modules/.bin/jest",
+    "docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose",
     "prepare": "husky install"
   },
   "repository": {
@@ -34,8 +35,10 @@
     "@babel/preset-env": "^7.16.4",
     "@types/jest": "^27.0.3",
     "babel-jest": "^27.3.1",
+    "clean-jsdoc-theme": "^3.3.0",
     "husky": "^7.0.4",
     "jest": "^27.3.1",
+    "jsdoc": "^3.6.7",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.0",
     "ts-jest": "^27.0.7",

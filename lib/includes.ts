@@ -1,6 +1,10 @@
+/**
+ * @class
+ */
 interface Array<T> {
   /**
    * @description Determines weather an array contains/includes a given string
+   * @method
    * @param {string} searchStr
    * @returns {Boolean}
    *
@@ -8,6 +12,7 @@ interface Array<T> {
   _includes(searchStr: string): boolean;
   /**
    * @description Determines weather an array contains/includes a given string
+   * @method
    * @param {string} searchStr
    * @returns {Boolean}
    *
