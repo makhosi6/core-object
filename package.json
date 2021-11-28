@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "types": "./types/index.d.ts",
+  "engines": {
+    "node": ">=14.12.0"
+  },
   "scripts": {
     "build": "npx tsc index.ts",
     "build:watch": "npx tsc --watch index.ts",
@@ -20,6 +23,7 @@
     "objects"
   ],
   "author": "makhosi6",
+  "email": "ndondo330@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/makhosi6/core-object/issues"
