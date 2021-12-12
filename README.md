@@ -1,3 +1,3 @@
-#core-object
+# core-object
 
-extending/expanding standard built-in objects.
+Extending/expanding standard built-in objects, including their methods and properties.
